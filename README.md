@@ -15,7 +15,7 @@ This repository contains a comprehensive **Time Series Forecasting** pipeline fo
 Experience how we track nested runs, parameters, and performance metrics in real-time.
 
 <p align="center">
-  <img src="assets/Screenshot 2026-03-20 at 10.40.20.png" width="90%" style="border-radius: 10px; border: 1px solid #ddd;" alt="MLflow Tracking UI">
+  <img src="/mlflow_tracking.png" width="90%" style="border-radius: 10px; border: 1px solid #ddd;" alt="MLflow Tracking UI">
   <br>
   <em>Figure 1: Nested Experiment tracking showing Model Types, Hyperparameters, and Metrics.</em>
 </p>
@@ -39,7 +39,7 @@ For every single run, the system automatically calculates and logs:
 * **Artifacts:** High-resolution forecasting plots for both 1-week and 1-month horizons.
 
 <p align="center">
-  <img src="assets/Screenshot 2026-03-20 at 10.40.37.png" width="90%" style="border-radius: 10px; border: 1px solid #ddd;" alt="Forecasting Results">
+  <img src="/week_plot.png" width="90%" style="border-radius: 10px; border: 1px solid #ddd;" alt="Forecasting Results">
   <br>
   <em>Figure 2: Actual vs. Predicted energy consumption (1-week vs 1-month).</em>
 </p>
@@ -58,3 +58,6 @@ git clone [https://github.com/your-username/your-repo-name.git](https://github.c
 
 # Install dependencies
 pip install pandas numpy xgboost scikit-learn matplotlib mlflow
+
+
+
